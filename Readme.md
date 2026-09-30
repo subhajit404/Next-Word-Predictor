@@ -44,7 +44,7 @@ Both models read a quote one prefix at a time and learn to guess the word that c
 
 ## 🔄 Data Pipeline
 
-<img src="assets/pipeline.svg" alt="Animated data pipeline" width="100%"/>
+<img src="pipeline.svg" alt="Animated data pipeline" width="100%"/>
 
 1. **Load**: read the `quote` column (the `Author` column isn't used for modelling).
 2. **Clean**: lowercase, then strip punctuation with `str.replace(r'[^\w\s]', '', regex=True)`.
