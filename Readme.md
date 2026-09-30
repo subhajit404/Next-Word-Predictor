@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Next-Word Prediction: SimpleRNN vs LSTM" width="100%"/>
+<img src="banner.svg" alt="Next-Word Prediction: SimpleRNN vs LSTM" width="100%"/>
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-FF6F00?logo=tensorflow&logoColor=white)
@@ -55,13 +55,13 @@ Both models read a quote one prefix at a time and learn to guess the word that c
 
 ### How one quote becomes many samples
 
-<img src="assets/sliding_window.svg" alt="Animated sliding-window sample creation" width="100%"/>
+<img src="sliding_window.svg" alt="Animated sliding-window sample creation" width="100%"/>
 
 ---
 
 ## 🧠 Model Architectures
 
-<img src="assets/architecture.svg" alt="SimpleRNN vs LSTM architecture" width="100%"/>
+<img src="architecture.svg" alt="SimpleRNN vs LSTM architecture" width="100%"/>
 
 ```python
 emb_dim, rnn_units = 50, 128
@@ -92,7 +92,7 @@ model.fit(X_pad, y_one_hot, epochs=100, batch_size=128)
 
 ## 📈 Results
 
-<img src="assets/training.svg" alt="Animated training curves" width="100%"/>
+<img src="training.svg" alt="Animated training curves" width="100%"/>
 
 | Metric (epoch 100) | SimpleRNN | LSTM |
 |---|:---:|:---:|
